@@ -4,7 +4,7 @@
 
 Template project for building a React front end over the Swaggerhub API. This repository is intended as a starting point for those looking to develop a custom, swagger/OAS driven portal.
 
-Documentation and full tutorial can be found: 
+Documentation and full tutorial can be found: https://swagger.io/blog/api-documentation/building-documentation-portal-swagger-tutorial/
 
 An example of the site can be found at: https://empire-doc-portal.netlify.com/
 
