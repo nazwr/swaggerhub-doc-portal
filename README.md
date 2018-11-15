@@ -10,9 +10,9 @@ An example of the site can be found at: https://empire-doc-portal.netlify.com/
 
 ## USE
 
-- clone repository
-- cd
-- npm install
-- npm start
+- `clone repository`
+- `cd`
+- `npm install`
+- `npm start`
 
 **In order to connect this to your own Swaggerhub repository, simply update the /src/organization_config.json file with your organization name, and other display information.**
