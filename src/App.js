@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import './App.css'
-import './swagger-ui.css'
 import SwaggerUI from 'swagger-ui';
 import Config from './organization_config.json';
 import Sidebar from './Sidebar.js'

@@ -23,11 +23,11 @@ The first thing we should look at is the structure of our current style sheets -
 
 [current css components we care about]
 
-Lets look at updating the sidebar to align with our final vision. This should be pretty straightforward, as we have a single sidebar body class `side-bar` and the links share a common class name `api-link`. Currently, these all live under the same `App.css` file which should be fine for the time being, we will create a separate stylesheet for the SwaggerUI styling shortly.
-
-# UPDATING THE DOCUMENTATION STYLE
+Lets look at updating the sidebar to align with our final vision. This should be pretty straightforward, as we have a single sidebar body class `side-bar` and the links share a common class name `api-link`. Currently, these all live under the same `App.css` file which worked fine for our initial setup, but to make things manageable lets create a css folder, and a new file `side-bar.css` that will contain the specific classes. We can go ahead and move all the other CSS files except for `index.css` which is required by create-react-app that we leant on for our initial setup.
 
 # UPDATING THE HEADER
  - add custom font
  - add image
  - add subhead
+
+# UPDATING THE DOCUMENTATION STYLE

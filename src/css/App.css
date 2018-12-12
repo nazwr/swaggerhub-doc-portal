@@ -1,0 +1,22 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  background-color: #3D5E78;
+}
+
+.swagger-ui .info .title {
+  color: white;
+}
+
+.swagger-ui .opblock-tag {
+  color: white;
+}
+
+.swagger-ui .opblock-tag small {
+  color: white;
+}
+
+.swagger-ui .opblock .opblock-summary-path {
+  color: white;
+}
