@@ -5,12 +5,27 @@
   background-color: #3D5E78;
 }
 
-.swagger-ui .info .title {
+.swagger-ui .info {
+  background-color: white;
+  padding: 50px;
+  border-bottom: 5px solid #B32727;
+  /* font-family:  */
+}
+
+.swagger-ui .scheme-container {
+  background-color: rgba(1, 1, 1, 0);
+  box-shadow: 0 0 0 0;
+}
+
+.swagger-ui .schemes-title {
   color: white;
 }
 
 .swagger-ui .opblock-tag {
   color: white;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  border-bottom: 1px solid #B32727;
 }
 
 .swagger-ui .opblock-tag small {
@@ -19,4 +34,52 @@
 
 .swagger-ui .opblock .opblock-summary-path {
   color: white;
+}
+
+.swagger-ui .opblock .opblock-summary-description {
+  color: white;
+}
+
+.swagger-ui .markdown {
+  color: white;
+}
+
+.swagger-ui .markdown p {
+  color: white;
+}
+
+.swagger-ui .table-container {
+  color: white;
+}
+
+.swagger-ui .response-col_status {
+  color: white;
+}
+
+.swagger-ui .responses-header td {
+  color: white;
+}
+
+.swagger-ui .table-container th {
+  color: white;
+}
+
+.swagger-ui .table-container .parameter__name {
+  color: white;
+}
+
+.swagger-ui section.models {
+  border: 1px solid #B32727;
+}
+
+.swagger-ui section.models h4 {
+  color: white;
+}
+
+.swagger-ui section.models .model-container {
+  background-color: white;
+}
+
+.swagger-ui section.models .model-container:hover {
+  background-color: whitesmoke;
 }
