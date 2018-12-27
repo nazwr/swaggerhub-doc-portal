@@ -16,6 +16,10 @@
   color: black;
 }
 
+.swagger-ui .info .description .markdown {
+  color: black;
+}
+
 .swagger-ui .scheme-container {
   background-color: rgba(1, 1, 1, 0);
   box-shadow: 0 0 0 0;
