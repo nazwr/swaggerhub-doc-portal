@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
-import './App.css'
 import SwaggerUI from 'swagger-ui';
 import Config from './organization_config.json';
 import Sidebar from './Sidebar.js'
-import '../node_modules/swagger-ui/dist/swagger-ui.css'
 
 class App extends Component {
   constructor(props) {
