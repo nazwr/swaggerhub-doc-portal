@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   height: 100vh;
-  background-color: #3D5E78;
+  background-color: #0B1D33;
 }
 
 .swagger-ui .info {
@@ -10,6 +10,10 @@
   padding: 50px;
   border-bottom: 5px solid #B32727;
   /* font-family:  */
+}
+
+.swagger-ui .info .description p {
+  color: black;
 }
 
 .swagger-ui .scheme-container {
@@ -25,11 +29,15 @@
   color: white;
   text-transform: uppercase;
   letter-spacing: .1em;
-  border-bottom: 1px solid #B32727;
+  border-bottom: 1px solid #D4BE7D;
 }
 
 .swagger-ui .opblock-tag small {
   color: white;
+}
+
+.swagger-ui .op-block {
+  border-radius: 0;
 }
 
 .swagger-ui .opblock .opblock-summary-path {
@@ -69,7 +77,8 @@
 }
 
 .swagger-ui section.models {
-  border: 1px solid #B32727;
+  border: 1px solid #D4BE7D;
+  border-radius: 0;
 }
 
 .swagger-ui section.models h4 {
@@ -78,6 +87,7 @@
 
 .swagger-ui section.models .model-container {
   background-color: white;
+  border-radius: 0;
 }
 
 .swagger-ui section.models .model-container:hover {
