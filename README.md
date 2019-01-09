@@ -6,6 +6,7 @@ Template project for building a React front end over the Swaggerhub API. This re
 
 Documentation and full tutorial can be found at the links below: 
 - Part 1: https://swagger.io/blog/api-documentation/building-documentation-portal-swagger-tutorial/
+- Part 2: https://swagger.io/blog/api-documentation/building-a-documentation-portal-for-multiple-apis/
 
 An example of the site can be found at: https://empire-doc-portal.netlify.com/
 
