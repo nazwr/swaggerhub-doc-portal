@@ -1,5 +1,7 @@
 # Swaggerhub Documentation Portal
 
+![SwaggerHub_gif](https://i.imgur.com/YAkrYRo.gif)
+
 ## INFO
 
 Template project for building a React front end over the Swaggerhub API. This repository is intended as a starting point for those looking to develop a custom, swagger/OAS driven portal.
