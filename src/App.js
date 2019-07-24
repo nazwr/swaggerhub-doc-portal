@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import SwaggerUI from 'swagger-ui';
+import SwaggerUI from 'swagger-ui-react';
 import Config from './organization_config.json';
 import Sidebar from './Sidebar.js'
 
@@ -19,13 +19,6 @@ class App extends Component {
   componentWillMount() {
     this.setState({
       organizationConfig:  Config.orgData,
-    })
-  }
-
-  componentDidUpdate() {
-    SwaggerUI({
-      domNode: document.getElementById("api-data"),
-      url: this.state.definitionLink
     })
   }
 
@@ -74,7 +67,13 @@ class App extends Component {
           updateDefinitionLink={this.updateDefinitionLink}
           getOrganizationData={this.getOrganizationData}
         />
-        <div id="api-data" />
+        
+        <div id="api-data">
+          <SwaggerUI 
+            url={this.state.definitionLink}
+            docExpansion="list"
+          />
+        </div>
       </div>
     );
   }
