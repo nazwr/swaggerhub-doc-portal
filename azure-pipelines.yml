@@ -18,9 +18,10 @@ steps:
 - task: BatchScript@1
   inputs:
     filename: '"C:\Program Files\SmartBear\ReadyAPI-3.2.0\bin\loadtestrunner.bat"'
-    arguments: '"C:\Users\nathan.wright\AppData\Roaming\Microsoft\Windows\Network Shortcuts\REST-Sample-Project-readyapi-project.xml" "-nLoad Test 1" "-EDefault environment" -r- task: PublishTestResults@2
+    arguments: '"C:\Users\nathan.wright\AppData\Roaming\Microsoft\Windows\Network Shortcuts\REST-Sample-Project-readyapi-project.xml" "-nLoad Test 1" "-EDefault environment" -r -j'
+
+- task: PublishTestResults@2
   inputs:
     testResultsFormat: 'JUnit'
+    searchFolder: 'C:\Users\nathan.wright\Downloads\_deployment\output_results'
     testResultsFiles: '**/TEST-*.xml'
-    searchFolder: 'C:\Users\nathan.wright\Downloads\_deployment\output_results' -FXML -j'
-
